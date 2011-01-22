@@ -1,0 +1,256 @@
+TChatApplication
+v7
+r0
+t317394183.327974
+cCheck dependencies
+cProcessInfoPlistFile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/Info.plist ChatApplication-Info.plist
+cCompileXIB /Users/ankurgurha/Documents/ChatApplication/MainWindow.xib
+cCompileXIB /Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib
+cProcessPCH /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o /Users/ankurgurha/Documents/ChatApplication/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication normal i386
+cGenerateDSYMFile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app.dSYM /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication
+cTouch /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib
+c000000004D3ABDEA0000000000001A65
+t1295695338
+s6757
+
+N/Users/ankurgurha/Documents/ChatApplication/ChatApplication_Prefix.pch
+c000000004D3ABDEA00000000000000C7
+t1295695338
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.h
+c000000004D3AD3BD00000000000001FD
+t1295700925
+s509
+i<UIKit/UIKit.h>
+
+N/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m
+c000000004D3AD5850000000000000ABB
+t1295701381
+s2747
+i"ChatApplicationAppDelegate.h"
+i"ChatApplicationViewController.h"
+
+N/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.h
+c000000004D3ABDEA0000000000000104
+t1295695338
+s260
+i<UIKit/UIKit.h>
+
+N/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m
+c000000004D3ABDEA00000000000005DF
+t1295695338
+s1503
+i"ChatApplicationViewController.h"
+
+N/Users/ankurgurha/Documents/ChatApplication/MainWindow.xib
+c000000004D3ABDEA0000000000004E89
+t1295695338
+s20105
+
+N/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplication.LinkFileList
+c000000004D3AD58500000000000001DC
+t1295701381
+s476
+
+N/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o
+t1295701383
+s52956
+
+N/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o
+t1295701383
+s37676
+
+N/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o
+t1295701383
+s6312
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app
+t1295701383
+s238
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app.dSYM
+t1295701383
+s102
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication
+t1295701383
+s17508
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplicationViewController.nib
+t1295701381
+s795
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/Info.plist
+t1295701381
+s629
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/MainWindow.nib
+t1295701381
+s1139
+
+N/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/PkgInfo
+t1295701381
+s8
+
+N/Users/ankurgurha/Documents/ChatApplication/main.m
+c000000004D3ABDEA000000000000016F
+t1295695338
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch.gch
+t1295701382
+s15453392
+
+NChatApplication-Info.plist
+c000000004D3ABDEA000000000000038D
+t1295695338
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317394181#317394181#0(0"0(0#1#0"8621612544#0"0#
+
+CCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317394183.132643
+e317394183.251509
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o
+x/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m317394183#317394183#0(0"0(0#0#80"/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m8620266656#2181"    cd /Users/ankurgurha/Documents/ChatApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-generated-files.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-own-target-headers.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-all-target-headers.hmap -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-project-headers.hmap -F/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -I/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/include -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources/i386 -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources -include /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch -c /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationAppDelegate.m -o /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o0#
+
+CCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317394183.133781
+e317394183.202582
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o
+x/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m317394183#317394183#0(0"0(0#0#83"/Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m8619482080#2187"    cd /Users/ankurgurha/Documents/ChatApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-generated-files.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-own-target-headers.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-all-target-headers.hmap -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-project-headers.hmap -F/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -I/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/include -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources/i386 -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources -include /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch -c /Users/ankurgurha/Documents/ChatApplication/Classes/ChatApplicationViewController.m -o /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o0#
+
+CCompileC build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o /Users/ankurgurha/Documents/ChatApplication/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317394183.131629
+e317394183.188049
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o
+x/Users/ankurgurha/Documents/ChatApplication/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/ankurgurha/Documents/ChatApplication/main.m317394183#317394183#0(0"0(0#0#50"/Users/ankurgurha/Documents/ChatApplication/main.m8621563712#2129"    cd /Users/ankurgurha/Documents/ChatApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-generated-files.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-own-target-headers.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-all-target-headers.hmap -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-project-headers.hmap -F/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -I/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/include -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources/i386 -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources -include /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch -c /Users/ankurgurha/Documents/ChatApplication/main.m -o /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib
+s317394181.265703
+e317394181.833150
+r1
+xCompileXIB
+x/Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib
+lSLF07#2@44"CompileXIB ChatApplicationViewController.xib317394181#317394181#0(0"0(0#0#77"/Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib8620081760#631"    cd /Users/ankurgurha/Documents/ChatApplication    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplicationViewController.nib /Users/ankurgurha/Documents/ChatApplication/ChatApplicationViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/ankurgurha/Documents/ChatApplication/MainWindow.xib
+s317394181.265016
+e317394181.780526
+r1
+xCompileXIB
+x/Users/ankurgurha/Documents/ChatApplication/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317394181#317394181#0(0"0(0#0#58"/Users/ankurgurha/Documents/ChatApplication/MainWindow.xib8620211968#593"    cd /Users/ankurgurha/Documents/ChatApplication    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/MainWindow.nib /Users/ankurgurha/Documents/ChatApplication/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app.dSYM /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication
+s317394183.311075
+e317394183.325041
+r1
+xGenerateDSYMFile
+x/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app.dSYM
+x/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/ChatApplication.app.dSYM build/Debug-iphonesimulator/ChatApplication.app/ChatApplication317394183#317394183#0(0"0(0#0#107"/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication8621695744#422"    cd /Users/ankurgurha/Documents/ChatApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication -o /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app.dSYM0#
+
+CLd /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication normal i386
+s317394183.251597
+e317394183.310939
+r1
+xLd
+x/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication
+xnormal
+xi386
+lSLF07#2@112"Link /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication317394183#317394183#0(0"0(0#0#0"8612778016#965"    cd /Users/ankurgurha/Documents/ChatApplication    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -F/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -filelist /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplication.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/ChatApplication0#
+
+CProcessInfoPlistFile /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/Info.plist ChatApplication-Info.plist
+s317394181.261345
+e317394181.264946
+r1
+xProcessInfoPlistFile
+x/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/Info.plist
+xChatApplication-Info.plist
+lSLF07#2@34"Process ChatApplication-Info.plist317394181#317394181#0(0"0(0#0#70"/Users/ankurgurha/Documents/ChatApplication/ChatApplication-Info.plist8621464800#518"    cd /Users/ankurgurha/Documents/ChatApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatApplication-Info.plist -genpkginfo /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app/Info.plist0#
+
+CProcessPCH /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317394181.833319
+e317394183.131468
+r1
+xProcessPCH
+x/var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch.gch
+xChatApplication_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile ChatApplication_Prefix.pch317394181#317394183#0(0"0(0#0#70"/Users/ankurgurha/Documents/ChatApplication/ChatApplication_Prefix.pch8621728064#2008"    cd /Users/ankurgurha/Documents/ChatApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-generated-files.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-own-target-headers.hmap -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-all-target-headers.hmap -iquote /Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/ChatApplication-project-headers.hmap -F/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator -I/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/include -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources/i386 -I/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/DerivedSources -c /Users/ankurgurha/Documents/ChatApplication/ChatApplication_Prefix.pch -o /var/folders/tR/tRfOvOG2Fy8ImMhyIST2V++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-applbvcoguyfasabywgjgyrnazvs/ChatApplication_Prefix.pch.gch0#
+
+CTouch /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app
+s317394183.325130
+e317394183.327938
+r1
+xTouch
+x/Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app
+lSLF07#2@97"Touch /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app317394183#317394183#0(0"0(0#0#0"8612737408#296"    cd /Users/ankurgurha/Documents/ChatApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ankurgurha/Documents/ChatApplication/build/Debug-iphonesimulator/ChatApplication.app0#
+
