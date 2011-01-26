@@ -1,0 +1,424 @@
+TChatApplication
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplicationViewController.xib
+c000000004D3C04FA0000000000004A0C
+t1295779066
+s18956
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch
+c000000004D3C04FA00000000000000C7
+t1295779066
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.h
+c000000004D3C04FA00000000000001FD
+t1295779066
+s509
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m
+c000000004D3C04FA0000000000000ABB
+t1295779066
+s2747
+i"ChatApplicationAppDelegate.h"
+i"ChatApplicationViewController.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationViewController.h
+c000000004D3C04FA0000000000000176
+t1295779066
+s374
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationViewController.m
+c000000004D3C04FA00000000000011EF
+t1295779066
+s4591
+i"ChatApplicationViewController.h"
+i"ChatRoomViewController.h"
+i"JSON.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.h
+c000000004D3C04FA00000000000000F6
+t1295779066
+s246
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m
+c000000004D3C04FA00000000000005BE
+t1295779066
+s1470
+i"ChatRoomViewController.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib
+c000000004D3C04FA0000000000004556
+t1295779066
+s17750
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/JSON.h
+c000000004D3C04FA0000000000000AC5
+t1295779066
+s2757
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSObject+SBJSON.h
+c000000004D3C04FA000000000000085F
+t1295779066
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSObject+SBJSON.m
+c000000004D3C04FA000000000000077D
+t1295779066
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSString+SBJSON.h
+c000000004D3C04FA00000000000007F0
+t1295779066
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSString+SBJSON.m
+c000000004D3C04FA000000000000075D
+t1295779066
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonBase.h
+c000000004D3C04FA0000000000000B82
+t1295779066
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonBase.m
+c000000004D3C04FA0000000000000AC1
+t1295779066
+s2753
+i"SBJsonBase.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonParser.h
+c000000004D3C04FA0000000000000C8F
+t1295779066
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonParser.m
+c000000004D3C04FA0000000000003B7A
+t1295779066
+s15226
+i"SBJsonParser.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonWriter.h
+c000000004D3C04FA00000000000011D9
+t1295779066
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonWriter.m
+c000000004D3C04FA000000000000206D
+t1295779066
+s8301
+i"SBJsonWriter.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib
+c000000004D3C04FA0000000000005FD4
+t1295779066
+s24532
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationViewController.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/NSString+SBJSON.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonBase.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonParser.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonWriter.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationViewController.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/NSString+SBJSON.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonBase.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonParser.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonWriter.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app.dSYM
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ChatApplication
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ChatApplicationViewController.nib
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ChatRoomViewController.nib
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/Info.plist
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/MainWindow.nib
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/PkgInfo
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ResourceRules.plist
+t2
+s0
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/main.m
+c000000004D3C04FA000000000000016F
+t1295779066
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-avbdpqhucwvyycgmbzwwjzwbewxd/ChatApplication_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-eisrfxtgiltgpsfswlewxymrijcs/ChatApplication_Prefix.pch.gch
+t2
+s0
+
+NChatApplication-Info.plist
+c000000004D3C04FA000000000000038D
+t1295779066
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317471934#317471934#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain317471934#18446744073709551615#0#0(1@0"0(0#1#0"5211871307329597440#0"0#
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/NSObject+SBJSON.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSObject+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/NSString+SBJSON.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSString+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonBase.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonParser.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/SBJsonWriter.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonWriter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/NSObject+SBJSON.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSObject+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/NSString+SBJSON.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/NSString+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonBase.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonParser.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/SBJsonWriter.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/SBJsonWriter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplicationViewController.xib"
+r0
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib"
+r0
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib"
+r0
+
+CCpResource build/Release-iphoneos/ChatApplication.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ChatApplication" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app.dSYM" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/ChatApplication"
+r0
+
+CLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication" normal armv6
+r0
+
+CLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Release-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app/Info.plist" ChatApplication-Info.plist
+r0
+
+CProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-avbdpqhucwvyycgmbzwwjzwbewxd/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-eisrfxtgiltgpsfswlewxymrijcs/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app"
+r0
+
+CValidate "/Users/chrisroebuck/Development/iPhone Development/chat/build/Release-iphoneos/ChatApplication.app"
+r0
+

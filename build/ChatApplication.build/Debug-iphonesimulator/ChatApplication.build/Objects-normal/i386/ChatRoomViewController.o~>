@@ -1,0 +1,6 @@
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController longPoll:]':
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:45: warning: comparison of distinct Objective-C types 'struct NSNumber *' and 'struct NSDate *' lacks a cast
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:45: warning: comparison of distinct pointer types lacks a cast
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:46: warning: incompatible Objective-C types 'struct NSDate *', expected 'struct NSNumber *' when passing argument 1 of 'setLast_message_time:' from distinct Objective-C type
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController connectionDidFinishLoading:]':
+/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:126: warning: unused variable 'payload'

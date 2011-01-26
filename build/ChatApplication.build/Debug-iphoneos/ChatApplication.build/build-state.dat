@@ -1,0 +1,616 @@
+TChatApplication
+v7
+r0
+t317608347.970981
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ChatApplication.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Info.plist" ChatApplication-Info.plist
+cCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib"
+cCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib"
+cCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib"
+cProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/LogonViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/User.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/LogonViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication" normal armv6
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/User.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication" normal armv7
+cCreateUniversalBinary "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app.dSYM" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication"
+cProcessProductPackaging "/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision"
+cTouch "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent"
+cCodeSign "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch
+c000000004D3C04FA00000000000000C7
+t1295779066
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.h
+c000000004D3C04FA00000000000001FD
+t1295779066
+s509
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m
+c000000004D3C4BEB0000000000000AB1
+t1295797227
+s2737
+i"ChatApplicationAppDelegate.h"
+i"LogonViewController.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.h
+c000000004D3CCE1C00000000000002EC
+t1295830556
+s748
+i<UIKit/UIKit.h>
+i"User.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m
+c000000004D3E1A170000000000001A8D
+t1295915543
+s6797
+i"ChatRoomViewController.h"
+i<YAJL/YAJL.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib
+c000000004D3CC59000000000000064F4
+t1295828368
+s25844
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.h
+c000000004D3C864400000000000001F4
+t1295812164
+s500
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m
+c000000004D3E1A08000000000000151C
+t1295915528
+s5404
+i"LogonViewController.h"
+i"ChatRoomViewController.h"
+i"User.h"
+i<YAJL/YAJL.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.h
+c000000004D3DFD9300000000000001FB
+t1295908243
+s507
+i<Foundation/Foundation.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m
+c000000004D3DFE63000000000000026F
+t1295908451
+s623
+i"User.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib
+c000000004D3C70D30000000000005A4E
+t1295806675
+s23118
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib
+c000000004D3C859B00000000000069CE
+t1295811995
+s27086
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/NSBundle+YAJL.h
+c000000004D3C45CF000000000000090E
+t1295795663
+s2318
+i"YAJLParser.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/NSObject+YAJL.h
+c000000004D3C45CF0000000000001525
+t1295795663
+s5413
+i"YAJLGen.h"
+i"YAJLParser.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/YAJL.h
+c000000004D3C45CF00000000000019CD
+t1295795663
+s6605
+i"YAJLParser.h"
+i"YAJLDocument.h"
+i"YAJLGen.h"
+i"NSObject+YAJL.h"
+i"NSBundle+YAJL.h"
+i<YAJL/YAJL.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/YAJLDocument.h
+c000000004D3C45CF00000000000016FE
+t1295795663
+s5886
+i"YAJLParser.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/YAJLGen.h
+c000000004D3C45CF000000000000102E
+t1295795663
+s4142
+i"yajl_gen.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/YAJLParser.h
+c000000004D3C45CF00000000000015E8
+t1295795663
+s5608
+i"yajl_parse.h"
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/yajl_common.h
+c000000004D3C45CF0000000000000C3B
+t1295795663
+s3131
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/yajl_gen.h
+c000000004D3C45CF0000000000001C2D
+t1295795663
+s7213
+i<yajl/yajl_common.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/Headers/yajl_parse.h
+c000000004D3C45CF0000000000002137
+t1295795663
+s8503
+i<yajl/yajl_common.h>
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/YAJL.framework/YAJL
+c000000004D3C45CF00000000000A59F4
+t1295795663
+s678388
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent
+t1295911138
+s436
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication
+t1295915547
+s106436
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication.LinkFileList
+c000000004D3E08DE0000000000000320
+t1295911134
+s800
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o
+t1295911137
+s52488
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o
+t1295915547
+s68108
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/LogonViewController.o
+t1295915547
+s59240
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/User.o
+t1295911137
+s10736
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o
+t1295911137
+s6480
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication
+t1295915547
+s102236
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication.LinkFileList
+c000000004D3E08DE0000000000000320
+t1295911134
+s800
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o
+t1295911137
+s52408
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o
+t1295915547
+s67644
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/LogonViewController.o
+t1295915547
+s58928
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/User.o
+t1295911137
+s10628
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o
+t1295911137
+s6464
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app
+t1295915547
+s408
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app.dSYM
+t1295915547
+s102
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication
+t1295915547
+s212828
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatRoomViewController.nib
+t1295911135
+s2182
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Info.plist
+t1295911134
+s819
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Logon.nib
+t1295911134
+s1808
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/MainWindow.nib
+t1295911134
+s1547
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/PkgInfo
+t1295911134
+s8
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ResourceRules.plist
+t1295911134
+s485
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision
+t1295911138
+s7178
+
+N/Users/chrisroebuck/Development/iPhone Development/chat/main.m
+c000000004D3C04FA000000000000016F
+t1295779066
+s367
+i<UIKit/UIKit.h>
+
+N/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision
+c000000004D3DF3630000000000001C0A
+t1295905635
+s7178
+
+N/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch.gch
+t1295911136
+s9983704
+
+N/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch.gch
+t1295911136
+s10446552
+
+NChatApplication-Info.plist
+c000000004D3C04FA000000000000038D
+t1295779066
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317608347#317608347#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCodeSign "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"
+s317608347.741413
+e317608347.970936
+r1
+xCodeSign
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app
+lSLF07#2@49"CodeSign build/Debug-iphoneos/ChatApplication.app317608347#317608347#0(0"0(0#0#96"/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app8611176256#765"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Chris Roebuck (6K4323GJPB)" "--resource-rules=/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ResourceRules.plist" --entitlements "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317603936.572432
+e317603937.095699
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m317603936#317603937#0(0"0(0#0#92"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m8625321024#2205"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplicationAppDelegate.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317608347.261892
+e317608347.437178
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController connectionDidFinishLoading:]':
+o/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:136: warning: unused variable 'payload'
+lSLF07#2@96"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m317608347#317608347#0(288"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController connectionDidFinishLoading:]':/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:136: warning: unused variable 'payload'1(22@25"Unused variable 'payload'317608347#159#129#0(6@88"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m317608343#136#0#136#0#19"unused variable '*'0(0#0#88"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m8611070976#2197"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatRoomViewController.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/LogonViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317608347.248370
+e317608347.408675
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/LogonViewController.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m317608347#317608347#0(0"0(0#0#85"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m7954884646492988416#2191"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/LogonViewController.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/User.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317603937.487221
+e317603937.564706
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/User.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m317603937#317603937#0(0"0(0#0#70"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m8625311136#2161"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/User.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317603936.571338
+e317603937.065872
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/chrisroebuck/Development/iPhone Development/chat/main.m317603936#317603937#0(0"0(0#0#62"/Users/chrisroebuck/Development/iPhone Development/chat/main.m8623591648#2153"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317603937.555100
+e317603937.660772
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m317603937#317603937#0(0"0(0#0#92"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m8616553856#2205"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatApplicationAppDelegate.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplicationAppDelegate.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317608347.503167
+e317608347.614960
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController connectionDidFinishLoading:]':
+o/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:136: warning: unused variable 'payload'
+lSLF07#2@96"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m317608347#317608347#0(288"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m: In function '-[ChatRoomViewController connectionDidFinishLoading:]':/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m:136: warning: unused variable 'payload'1(22@25"Unused variable 'payload'317608347#159#129#0(6@88"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m317608343#136#0#136#0#19"unused variable '*'0(0#0#88"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m8611722112#2197"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatRoomViewController.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/LogonViewController.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317608347.409088
+e317608347.546570
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/LogonViewController.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m317608347#317608347#0(0"0(0#0#85"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m7954884646492988416#2191"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/LogonViewController.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/LogonViewController.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/User.o "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317603937.875048
+e317603937.940891
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/User.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m317603937#317603937#0(0"0(0#0#70"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m8614871040#2161"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/User.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/User.o"0#
+
+CCompileC build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317603937.488497
+e317603937.554985
+r1
+xCompileC
+xbuild/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o
+x/Users/chrisroebuck/Development/iPhone Development/chat/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/chrisroebuck/Development/iPhone Development/chat/main.m317603937#317603937#0(0"0(0#0#62"/Users/chrisroebuck/Development/iPhone Development/chat/main.m8623893664#2153"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -include /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch -c "/Users/chrisroebuck/Development/iPhone Development/chat/main.m" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib"
+s317603934.612968
+e317603935.074826
+r1
+xCompileXIB
+x/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib
+lSLF07#2@45"CompileXIB Classes/ChatRoomViewController.xib317603934#317603935#0(0"0(0#0#90"/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib8621331616#639"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatRoomViewController.nib" "/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib"
+s317603934.170949
+e317603934.738078
+r1
+xCompileXIB
+x/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib
+lSLF07#2@20"CompileXIB Logon.xib317603934#317603934#0(0"0(0#0#65"/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib8628562336#597"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Logon.nib" "/Users/chrisroebuck/Development/iPhone Development/chat/Logon.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib"
+s317603934.170169
+e317603934.612874
+r1
+xCompileXIB
+x/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317603934#317603934#0(0"0(0#0#70"/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib13229783473389684#607"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/MainWindow.nib" "/Users/chrisroebuck/Development/iPhone Development/chat/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/ChatApplication.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317603934.111947
+e317603934.169474
+r1
+xCpResource
+xbuild/Debug-iphoneos/ChatApplication.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317603934#317603934#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8624675008#540"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"0#
+
+CCreateUniversalBinary "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication" normal "armv6 armv7"
+s317608347.674434
+e317608347.681410
+r1
+xCreateUniversalBinary
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication
+xnormal
+xarmv6 armv7
+lSLF07#2@99"CreateUniversalBinary build/Debug-iphoneos/ChatApplication.app/ChatApplication normal "armv6 armv7"317608347#317608347#0(0"0(0#0#67"/Users/chrisroebuck/Development/iPhone Development/chat/armv6 armv78612257024#658"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication" "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication" -output "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication"0#
+
+CGenerateDSYMFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app.dSYM" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication"
+s317608347.681501
+e317608347.737969
+r1
+xGenerateDSYMFile
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app.dSYM
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication
+lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/ChatApplication.app.dSYM build/Debug-iphoneos/ChatApplication.app/ChatApplication317608347#317608347#0(0"0(0#0#112"/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication8611764192#443"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ChatApplication" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app.dSYM"0#
+
+CLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication" normal armv6
+s317608347.437324
+e317608347.503055
+r1
+xLd
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication
+xnormal
+xarmv6
+lSLF07#2@162"Link /Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication317608347#317608347#0(0"0(0#0#0"8611073504#1094"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" -filelist "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework YAJL -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv6/ChatApplication"0#
+
+CLd "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication" normal armv7
+s317608347.615043
+e317608347.674340
+r1
+xLd
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication
+xnormal
+xarmv7
+lSLF07#2@162"Link /Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication317608347#317608347#0(0"0(0#0#0"8612619712#1094"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" -filelist "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework YAJL -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/Objects-normal/armv7/ChatApplication"0#
+
+CProcessInfoPlistFile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Info.plist" ChatApplication-Info.plist
+s317603934.119429
+e317603934.170091
+r1
+xProcessInfoPlistFile
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Info.plist
+xChatApplication-Info.plist
+lSLF07#2@34"Process ChatApplication-Info.plist317603934#317603934#0(0"0(0#0#82"/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication-Info.plist8614211968#670"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatApplication-Info.plist -genpkginfo "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/ResourceRules.plist" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/Info.plist"0#
+
+CProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317603935.074954
+e317603936.571229
+r1
+xProcessPCH
+x/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch.gch
+xChatApplication_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile ChatApplication_Prefix.pch317603935#317603936#0(0"0(0#0#82"/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch8628702592#2024"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv6" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -c "/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch" -o /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-colfnatzzjpqfpfaenzqynqfslcm/ChatApplication_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch.gch ChatApplication_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317603935.076250
+e317603936.490632
+r1
+xProcessPCH
+x/var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch.gch
+xChatApplication_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile ChatApplication_Prefix.pch317603935#317603936#0(0"0(0#0#82"/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch8627955584#2024"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-generated-files.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-own-target-headers.hmap" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-all-target-headers.hmap" -iquote "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication-project-headers.hmap" "-F/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos" "-F/Users/chrisroebuck/Development/iPhone Development/chat" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/include" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources/armv7" "-I/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/DerivedSources" -c "/Users/chrisroebuck/Development/iPhone Development/chat/ChatApplication_Prefix.pch" -o /var/folders/Td/TdT135vwEliBZ+hUWAkoL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatApplication_Prefix-fhvzuelckchfwmhcecgbvvmjmkpr/ChatApplication_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision" "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision"
+s317603938.125872
+e317603938.134616
+r1
+xProcessProductPackaging
+x/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision
+lSLF07#2@207"ProcessProductPackaging "/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision" build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision317603938#317603938#0(0"0(0#0#121"/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision8618285952#476"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/chrisroebuck/Library/MobileDevice/Provisioning Profiles/1D5C8089-2996-4BB4-B6A4-F6EADFFC1DA6.mobileprovision" -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent"
+s317603938.141497
+e317603938.158704
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent
+lSLF07#2@199"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent317603938#317603938#0(0"0(0#0#142"/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent8614977408#494"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphoneos/ChatApplication.build/ChatApplication.xcent"0#
+
+CTouch "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"
+s317608347.738152
+e317608347.741245
+r1
+xTouch
+x/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app
+lSLF07#2@102"Touch /Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app317608347#317608347#0(0"0(0#0#0"8611508480#310"    cd "/Users/chrisroebuck/Development/iPhone Development/chat"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/chrisroebuck/Development/iPhone Development/chat/build/Debug-iphoneos/ChatApplication.app"0#
+
