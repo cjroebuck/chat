@@ -1,9 +1,5 @@
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationViewController.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatRoomViewController.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/NSObject+SBJSON.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/NSString+SBJSON.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/SBJsonBase.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/SBJsonParser.o
-/Users/ankurgurha/Documents/ChatApplication/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/SBJsonWriter.o
+/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/main.o
+/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatApplicationAppDelegate.o
+/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/LogonViewController.o
+/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/ChatRoomViewController.o
+/Users/chrisroebuck/Development/iPhone Development/chat/build/ChatApplication.build/Debug-iphonesimulator/ChatApplication.build/Objects-normal/i386/User.o

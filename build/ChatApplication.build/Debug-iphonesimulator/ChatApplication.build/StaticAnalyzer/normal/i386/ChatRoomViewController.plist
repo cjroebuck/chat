@@ -4,9 +4,80 @@
 <dict>
  <key>files</key>
  <array>
+  <string>/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.m</string>
+  <string>/Users/chrisroebuck/Development/iPhone Development/chat/Classes/ChatRoomViewController.h</string>
  </array>
  <key>diagnostics</key>
  <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>125</integer>
+      <key>col</key><integer>12</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>125</integer>
+         <key>col</key><integer>22</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>125</integer>
+         <key>col</key><integer>41</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>extended_message</key>
+     <string>Value stored to &apos;payload&apos; during its initialization is never read</string>
+     <key>message</key>
+<string>Value stored to &apos;payload&apos; during its initialization is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;payload&apos; during its initialization is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead initialization</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>125</integer>
+   <key>col</key><integer>12</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>18</integer>
+      <key>col</key><integer>8</integer>
+      <key>file</key><integer>1</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;firstPoll&apos; in class &apos;ChatRoomViewController&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;firstPoll&apos; in class &apos;ChatRoomViewController&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;firstPoll&apos; in class &apos;ChatRoomViewController&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>18</integer>
+   <key>col</key><integer>8</integer>
+   <key>file</key><integer>1</integer>
+  </dict>
+  </dict>
  </array>
 </dict>
 </plist>

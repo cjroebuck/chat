@@ -7,7 +7,7 @@
 //
 
 #import "ChatApplicationAppDelegate.h"
-#import "ChatApplicationViewController.h"
+#import "LogonViewController.h"
 
 @implementation ChatApplicationAppDelegate
 
