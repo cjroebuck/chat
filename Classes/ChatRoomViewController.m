@@ -41,15 +41,14 @@
 			
 			NSTimeInterval seconds = [[message objectForKey:@"timestamp"]doubleValue]/1000;
 			NSDate *date = [NSDate dateWithTimeIntervalSince1970:seconds];
-			
-			
 			Message *msg = [[Message alloc] initWithNick:[message objectForKey:@"nick"]
-												  type:[message objectForKey:@"type"]
-												  text:[message objectForKey:@"text"]
+													type:[message objectForKey:@"type"]
+													text:[message objectForKey:@"text"]
 											   timestamp:date];
 			
 			[self.messages addObject:msg];
 			
+			[msg release];
 			
 			if (date > user.last_message_time) {
 				user.last_message_time = date;
@@ -105,16 +104,13 @@
     [request setTimeOutSeconds:60.0];
     [request setDelegate:self];
     [request setCompletionBlock:^{
-			NSString *responseString = [request responseString];
+		NSString *responseString = [request responseString];
         int statusCode = [request responseStatusCode];
         if (statusCode != 200) {
             NSLog(@"Request failed with status code %d", statusCode);
         } 
         else { 
 			NSLog(@"Send Message Request sent, response: %@", responseString);
-				// We received data, the connection is now closed, so we need to begin a new request.
-			
-				//[self longPoll:responseString];
         }    
     }];
     [request setFailedBlock:^{
@@ -129,8 +125,8 @@
 		[alert show];
 		[alert release];
 		
-			// Something went wrong.. move back to the login screen?
-			[self.navigationController popViewControllerAnimated:YES];
+		// Something went wrong.. move back to the login screen?
+		[self.navigationController popViewControllerAnimated:YES];
     }];
     [request startAsynchronous];
 }
@@ -147,7 +143,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
 {
-    
     static NSString *MyIdentifier = @"CustomRowIdentifier";
     
     // Try to retrieve from the table view a now-unused cell with the given identifier.
@@ -167,7 +162,6 @@
     }
     
     // Set up the cell.
-	
 	NSUInteger row = [indexPath row];
 	Message *message = [self.messages objectAtIndex:row];
 	cell.userNameLabel.text = message.nick;
@@ -200,20 +194,25 @@
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc. that aren't in use.
 }
 
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+	self.user = nil;
+	self.messageText = nil;
+	self.messageView = nil;
+	self.messages = nil;
 }
-
 
 - (void)dealloc {
-    [super dealloc];
+    [user release];
+	[messageText release];
+	[messageView release];
+	[messages release];
+	[super dealloc];
+	
 }
-
 
 @end

@@ -11,8 +11,7 @@
 #import "User.h"
 @class ASIHTTPRequest;
 
-@interface ChatRoomViewController : UIViewController
-	<UITableViewDelegate, UITableViewDataSource>{
+@interface ChatRoomViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
 	User *user;
 	UITextField *messageText;
 	UITableView *messageView;
@@ -26,6 +25,4 @@
 @property(nonatomic,retain) IBOutlet UITableView *messageView;
 @property(nonatomic,retain) NSMutableArray *messages;
 -(IBAction) sendMessage;
-	
-
 @end
